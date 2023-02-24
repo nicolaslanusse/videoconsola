@@ -1,0 +1,16 @@
+.container1 {
+    background-color: greenyellow;
+    border-radius: 20px;
+    width: 300px;
+    height: 500px;
+    border: solid green;
+    display: flex;
+}
+
+.screen {
+    background-color: bisque;
+    width: 280px;
+    height: 225px;
+    display: flex;
+    justify-content: end;
+}
