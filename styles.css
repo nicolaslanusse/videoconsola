@@ -1,16 +1,51 @@
-.container1 {
-    background-color: greenyellow;
-    border-radius: 20px;
-    width: 300px;
-    height: 500px;
-    border: solid green;
+body {
+    background-color: rgb(249, 185, 102);
+}
+.consola {
     display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 400px;
+    background-color: rgb(220, 220, 220);
+    border-radius: 10px 10px 60px 10px;
+    padding: 20px ;
 }
 
-.screen {
-    background-color: bisque;
-    width: 280px;
-    height: 225px;
+.pantalla {
+    width: 200px;
+    height: 150px;
+    background-color: #bdad58;
+    box-shadow: inset 25px 25px 0px -22px rgba(0,0,0,0.25);
+    
+}
+
+.borde-pantalla {
     display: flex;
-    justify-content: end;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    height: 210px;
+    background-color: #777777;
+    border-radius: 8px 8px 20px 20px;
+
+}
+
+.marca p {
+    display: inline;
+    color: grey;
+    border: solid 1px grey;
+    border-radius: 10px;
+    padding: 0px 7px;
+    font-family: sans-serif;
+    font-weight: 550;
+}
+
+.marca {
+    display: flex;
+    justify-content: center;
+}
+
+.gameboy-color {
+    color: gray;
 }
