@@ -10,7 +10,8 @@ body {
     height: 400px;
     background-color: rgb(220, 220, 220);
     border: 2px solid rgb(184, 184, 184);
-    border-radius: 10px 10px 60px 10px;
+    box-shadow: 1px 1px 54px 5px rgba(0,0,0,0.69);
+    border-radius: 30px;
     padding:20px ;
 }
 
@@ -153,6 +154,11 @@ body {
     margin-bottom: 40px;
 }
 
+.botones-inicio {
+    display: flex;
+    justify-content: center;
+}
+
 .select, .start {
     background-color: #3d3d3d;
     width: 50px;
@@ -166,5 +172,11 @@ body {
 }
 
 .start {
-    margin-left: 10px;
+    margin-left: 15px;
+}
+
+.salida-sonido {
+    margin-top: -20px;
+    margin-left: 209px;
+    font-size: 35px;
 }
