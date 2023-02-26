@@ -14,7 +14,7 @@ body {
     padding:20px ;
 }
 
-.pantalla img{
+.pantalla .img-gif{
     margin-top: 20px;
     width: 200px;
     height: 150px;
@@ -22,7 +22,7 @@ body {
     box-shadow: inset 25px 25px 0px -22px rgba(0,0,0,0.25);
 }
 
-img {
+.img-gif {
     border: solid 2px #bdad58;
     border-radius: 5px;
 }
@@ -48,6 +48,7 @@ img {
     margin-top: 5px;
     font-family: sans-serif;
     font-weight: 550;
+    font-size: 14px;
 }
 
 .marca {
@@ -85,36 +86,85 @@ img {
     font-weight: bold;
 }
 
+.botones {
+    display: flex;
+    justify-content: space-between;
+}
+
 .pad {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    flex-direction: column;
-    flex: 1; 
+    flex-direction: column; 
 }
 
 .boton-up {
     height: 20px;
     width: 20px;
-    background-color: #777777;
+    background-color: #3d3d3d;
     display: flex;
     justify-content: center;
-}
-
-.left-center-right {
-    height: 20px;
-    width: 60px;
-    background-color: #777777;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    border-radius: 7px 7px 0px 0px;
+    border: solid 2px #2b2b2b;
 }
 
 .boton-down {
     height: 20px;
     width: 20px;
-    background-color: #777777;
+    background-color: #3d3d3d;
     display: flex;
     justify-content: center;
+    border-radius: 0px 0px 7px 7px;
+    border: solid 2px #2b2b2b;
+    }
+
+.left-center-right {
+    height: 20px;
+    width: 65px;
+    background-color: #3d3d3d;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 7px;
+    border: solid 2px #2b2b2b;
+}
+.botones-ayb {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 15px;
 }
 
+.boton-a, .boton-b {
+    background-color: #930f0f;
+    border: solid 3px #531616;
+    color: #531616;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin: 5px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-b {
+    margin-bottom: 40px;
+}
+
+.select, .start {
+    background-color: #3d3d3d;
+    width: 50px;
+    height: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start {
+    margin-left: 10px;
+}
