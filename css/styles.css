@@ -3,6 +3,7 @@ body {
     display: flex;
     justify-content: center;
 }
+
 .consola {
     display: flex;
     justify-content: center;
@@ -14,8 +15,9 @@ body {
     box-shadow: 1px 1px 54px 5px rgba(0,0,0,0.69);
     border-radius: 30px;
     padding:20px ;
+    margin-top: 30px;
 }
-
+/* Parte superior de la consola, la pantalla y su respectivo borde, el gif, la marca y el modelo. */
 .borde-pantalla {
     display: flex;
     justify-content: center;
@@ -28,22 +30,14 @@ body {
 }
 
 .pantalla .img-gif{
-    display: flex;
-    justify-content: center;
     margin-top: 30px;
     width: 200px;
     height: 150px;
-    background-color: #bdad58;
-    box-shadow: inset 25px 25px 0px -22px rgba(0,0,0,0.25);
-}
-
-.img-gif {
     border: solid 2px #bdad58;
     border-radius: 5px;
 }
 
 .marca p {
-    display: inline;
     color: grey;
     border: solid 1px grey;
     border-radius: 20px;
@@ -88,7 +82,7 @@ body {
     color: rgb(123, 123, 254);
     font-weight: bold;
 }
-
+/* Parte inferior, aquí empiezan los botones y la salida de sonido. */
 .botones {
     display: flex;
     justify-content: space-between;
@@ -96,12 +90,11 @@ body {
 
 .pad {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
     flex-direction: column; 
 }
 
-.boton-up {
+.boton-up, .boton-down, .left-center-right {
     height: 20px;
     width: 20px;
     background-color: #3d3d3d;
@@ -113,30 +106,18 @@ body {
 }
 
 .boton-down {
-    height: 20px;
-    width: 20px;
-    background-color: #3d3d3d;
-    color: #9d9d9d;
-    display: flex;
-    justify-content: center;
     border-radius: 0px 0px 7px 7px;
-    border: solid 2px #2b2b2b;
-    }
+}
 
 .left-center-right {
-    color: #9d9d9d;
-    height: 20px;
+    border-radius: 7px;
     width: 65px;
-    background-color: #3d3d3d;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-radius: 7px;
-    border: solid 2px #2b2b2b;
 }
 .botones-ayb {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
     padding-right: 15px;
 }
@@ -174,7 +155,6 @@ body {
     font-weight: 600;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .start {
