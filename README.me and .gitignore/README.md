@@ -1,9 +1,21 @@
-# Video Consola
+# Video console 🎮
 
-Presentación de una video consola con HTML y CSS para proyecto de GeeksHubs Academy.![Captura](https://raw.githubusercontent.com/nicolaslanusse/videoconsola/16468b37a465d169b5268b0f5f1158a8338f9e66/consola.png)
+## About the project 🔍
 
-## Como probarla
+I designed an old game console, from the Nintendo brand. On the screen you can see a gif imitating the old games. It does not have any functionality, it is only the design.
+
+## The objective 📝
+
+The main objective of this project was to make an old game console, in this case it would be the Nintendo Gameboy Color.
+
+## Built with ⚙️
+
+![Captura](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+
+![Captura](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+## The Demo 🕹️
 
 Puedes probarla haciendo [click aquí](https://nicolaslanusse.github.io/videoconsola/).
 
-No tiene ninguna funcionalidad, solo es el diseño.
+![Captura](https://github.com/nicolaslanusse/videoconsola/blob/main/images/consola-actualizada.png?raw=true)
